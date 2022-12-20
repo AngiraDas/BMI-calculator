@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+body{
+   background-color: #256D85;
+  text-align: center;
+  padding: 100px;
+}
+
+* {
+    margin: 0px;
+
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 20px
+}
+
+.input_form {
+
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+}
+
+.begin{
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.form {
+
+    justify-content: space-evenly;
+}
+
+.form input {
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.input_form button {
+    background-color: #C9E3FF;
+    width: 60%;
+
+    text-decoration: none;
+    border: none;
+}
+
+.form input:active {
+    border: none;
+}
+
+.submit {
+margin-left: 40%;
+margin-top: 10px;
+  width: 20%;
+
+}
+
+.result {
+
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.sizing{
+  width: auto;
+  height: 50px;
+}
+.pic{
+  width: 600px;
+  margin-top: 20px ;
+margin-bottom: 5px;
+}
+.end{
+  margin-top: 5px;
+  padding: 0px;
+}
